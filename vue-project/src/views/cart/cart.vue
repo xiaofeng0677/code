@@ -8,6 +8,8 @@
     <div class="content">
         <!-- 头部导航栏 -->
         <headerNavigation title="购物车" left-icon="chevron_left" @left="$router.go(-1)"></headerNavigation>
+
+        <div>123</div>
     </div>
 </template>
 <script type="text/javascript">

@@ -72,8 +72,8 @@
         data() {
             return {
                 imagesUrl: { // 排版图片使用懒加载
-                    leftIcon: './static/img/public/navigation/left.png', // 左箭头
-                    rightIcon: './static/img/public/navigation/right.png' // 右箭头
+                    leftIcon: './static/img/navigation/left.png', // 左箭头
+                    rightIcon: './static/img/navigation/right.png' // 右箭头
                 }
             }
         },

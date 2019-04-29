@@ -11,12 +11,13 @@ import VueLazyLoad from 'vue-lazyload/vue-lazyload'
 // 注册为全局组件
 import registerAsGlobal from './components/registerAsGlobal/index'
 import store from './store/store'
-//museUI
+// MuseUI
+// import './plugins/museUI/index'
+
 import MuseUI from 'muse-ui';
 import 'muse-ui/dist/muse-ui.css';
 
 Vue.use(MuseUI);
-Vue.use(Vuex)
 Vue.use(request)
 Vue.use(VueLazyLoad, {
   error: '',
